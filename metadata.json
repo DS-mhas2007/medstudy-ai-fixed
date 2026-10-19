@@ -1,0 +1,6 @@
+{
+  "name": "MedStudy AI",
+  "description": "Personal medical study companion with AI translation, structured explanations, diagrams, PDF and video lectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

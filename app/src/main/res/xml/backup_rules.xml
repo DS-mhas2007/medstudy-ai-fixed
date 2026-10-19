@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 11 and lower auto-backup. The study database is backed up; the settings file (which holds the
+    encrypted API key) is not, because its Keystore key cannot be restored on another device.
+-->
+<full-backup-content>
+    <include domain="database" path="medstudy_database" />
+    <include domain="file" path="pdfs/" />
+    <exclude domain="file" path="datastore/" />
+</full-backup-content>
